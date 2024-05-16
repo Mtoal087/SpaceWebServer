@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NASA Photo of the Day</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <h1 class="flex justify-center px-5 mt-8 text-5xl font-semibold">
+      NASA Photo of the Day
+    </h1>
+    <br />
+    <h1 class="ml-16 text-4xl italic text-blue-400">{{.Title}}</h1>
+    <p class="ml-16 text-2xl italic">{{.Date}}</p>
+    <div class="mt-12 flex flex-col items-center">
+      <img src="{{.Hdurl}}" class="rounded-2xl w-1/2 h-auto" alt="{{.Title}}" />
+      <p class="mt-8 mb-4 w-1/2 underline text-3xl">About the photo</p>
+      <p>( Photo was provided by {{.Copyright}} )</p>
+      <p class="w-1/2 mt-2 text-xl mb-40">{{.Explanation}}</p>
+    </div>
+    <p class="mb-8 flex justify-end mr-5 italic text-gray-400">
+      Created by Matthew Toal
+    </p>
+  </body>
+</html>
