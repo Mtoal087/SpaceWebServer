@@ -5,7 +5,7 @@ I have decided to try out Go and have enjoyed it quite a bit. I am not a web dev
 
 ### About this project
 This project is a simple website that allows you to view NASA's photo of the day. It also gives you a description about it as well.
-The website/server was built with Go, HTML, and TailwindCSS.
+The website/server was built with Go, HTML, and TailwindCSS. I have been using Go templates to help me within this process.
 
 ### How to view the website
 - Install Go
